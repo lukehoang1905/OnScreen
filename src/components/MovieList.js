@@ -5,7 +5,7 @@ export default class MovieList extends Component {
     render() {
         return (
             <div>
-                <Movie AMovie={this.props.list}/>
+                <Movie movieDetail={this.props.movieList}/>
             </div>
         )
     }
